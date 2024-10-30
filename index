@@ -194,7 +194,7 @@
 
         async function loadConfig() {
             try {
-                const gistUrl = 'https://gist.githubusercontent.com/username/gist_id/raw/config.json'; // استبدل username و gist_id بالقيم الصحيحة
+                const gistUrl = 'https://gist.githubusercontent.com/0a5i5/33a674cfd69e8192b0b23eb15dd85c69/raw/2a1688b20f79bc21878cc321849af4df289189b4/config.json'; // استبدل username و gist_id بالقيم الصحيحة
                 const response = await fetch(gistUrl);
                 const config = await response.json();
                 apiKey = config.apiKey;
